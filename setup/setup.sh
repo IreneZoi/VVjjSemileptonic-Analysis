@@ -11,5 +11,5 @@ export PYTHONPATH=$PYTHONUSERBASE/lib/$PY_VER/site-packages:$PYTHONPATH
 export PATH=$PYTHONUSERBASE/bin:$PATH
 
 if [[ ${1} == "--with-install" ]]; then
-    pip install --user -r requirements.txt
+    pip install --user -r setup/requirements.txt
 fi
