@@ -18,6 +18,8 @@
 
 ## Setup this code
 
+NB: The installation should go in the lpc nobackup area!!
+
 ### First time
 ```bash
 git clone git@github.com:singh-ramanpreet/VVjjSemileptonic-Analysis
@@ -160,3 +162,11 @@ The output will be in `eos_path/output_dir` and logs in `./condor_logs`.
 
 ### Training
 ### Plotting
+
+NB: for this step it is really important to be in the `nobackup` area on `lxplus`
+
+```bash
+cd plotting
+source submit_make_hists.sh
+```
+```
