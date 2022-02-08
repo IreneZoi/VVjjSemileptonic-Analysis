@@ -7,13 +7,13 @@ tar_file=${output_tag}.tar.gz
 base_dir="root://cmseos.fnal.gov//store/user/singhr/wv_vbs_ntuples"
 rel_dir="mva_2021_Apr_27"
 
-#run_on_years=("2016")
-run_on_years=("2016" "2017" "2018")
+run_on_years=("2016")
+#run_on_years=("2016" "2017" "2018")
 
 run_on_channels=("zv" "zjj")
 
-#run_on_main_regions=("sr")
-run_on_main_regions=("sr" "cr_vjets")
+run_on_main_regions=("sr")
+#run_on_main_regions=("sr" "cr_vjets")
 
 mkdir -p ${work_dir}
 pushd ${work_dir}
@@ -122,4 +122,5 @@ do
 done
 
 popd
-exit
+echo "DONE!"
+#exit
