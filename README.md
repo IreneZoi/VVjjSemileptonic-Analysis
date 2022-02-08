@@ -18,6 +18,8 @@
 
 ## Setup this code
 
+NB: The installation should go in the lpc nobackup area!!
+
 ### First time
 ```bash
 git clone git@github.com:singh-ramanpreet/VVjjSemileptonic-Analysis
